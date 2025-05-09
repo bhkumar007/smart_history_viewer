@@ -1,0 +1,49 @@
+{
+  "list": [
+    {
+      "name": "Arts & Entertainment",
+      "icon": "images/Arts.png",
+        "description": ""
+    },
+    {
+      "name": "Streaming Media",
+      "icon": "images/Media.png",
+      "description": ""
+    },
+    {
+      "name": "Television & Video",
+      "icon": "images/video.png",
+      "description": ""
+    },
+    {
+      "name": "Web Search",
+      "icon": "images/search.png",
+      "description": ""
+    },
+    {
+      "name": "Technology & Computing",
+      "icon": "images/computer.png",
+      "description": "Computer and Technology: News, tutorials and tools associated with programing and DevOps"
+    },
+    {
+      "name": "Non-Standard Content",
+      "icon": "images/128.png",
+      "description": ""
+    },
+    {
+      "name": "Sports",
+      "icon": "images/sports.jpg",
+      "description": ""
+    },
+    {
+      "name": "Cricket",
+      "icon": "images/cricket.jpg",
+      "description": ""
+    },
+    {
+      "name": "File Sharing",
+      "icon": "images/file.jpg",
+      "description": ""
+    }
+  ]
+}

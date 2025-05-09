@@ -1,0 +1,39 @@
+{
+  "name": "Smart Browsing History",
+  "author": "bhkumar;t-madkha;t-nimsha;t-palev;t-umgadr;t-yiwa",
+  "version": "1.0",
+  "description": "Smart browsing history",
+  "permissions": [
+    "*://docs.microsoft.com/*",
+    "https://api.webshrinker.com/*",
+    "tabs",
+    "webNavigation",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [ "js/content.js" ],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "scripts": [ "js/background.js" ],
+    "persistent": true
+  },
+  "browser_specific_settings": {
+    "edge": {
+      "browser_action_next_to_addressbar": true
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "20": "images/20.png",
+      "40": "images/40.png"
+    },
+    "default_title": "Smart Browsing History",
+    "default_popup": "popup.html"
+  }
+}
